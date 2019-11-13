@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Add	Wyrazenia.cpp	/^void Zmienna::Add( std::string name, double val ){$/;"	f	class:Zmienna
+Bezwzgl	Wyrazenia.hpp	/^	Bezwzgl( Wyrazenie* first) : operator1arg(first) { name = "abs"; }$/;"	f	class:Bezwzgl
+Bezwzgl	Wyrazenia.hpp	/^class Bezwzgl : public operator1arg{$/;"	c
+C	makefile	/^C=g++ -Wall -Wextra -Werror -std=c++14 -lm$/;"	m
+Cos	Wyrazenia.hpp	/^	Cos( Wyrazenie* first) : operator1arg(first) { name = "cos"; }$/;"	f	class:Cos
+Cos	Wyrazenia.hpp	/^class Cos : public operator1arg{$/;"	c
+Dodaj	Wyrazenia.hpp	/^	Dodaj( Wyrazenie* first, Wyrazenie* second ) : operator2arg( first, second ){ oper = "+"; }$/;"	f	class:Dodaj
+Dodaj	Wyrazenia.hpp	/^class Dodaj : public operator2arg{$/;"	c
+Dziel	Wyrazenia.hpp	/^	Dziel( Wyrazenie* first, Wyrazenie* second ) : operator2arg( first, second ){ oper = "\/"; }$/;"	f	class:Dziel
+Dziel	Wyrazenia.hpp	/^class Dziel : public operator2arg{$/;"	c
+Exp	Wyrazenia.hpp	/^	Exp( Wyrazenie* first) : operator1arg(first) { name = "exp"; }$/;"	f	class:Exp
+Exp	Wyrazenia.hpp	/^class Exp : public operator1arg{$/;"	c
+Fi	Wyrazenia.hpp	/^		Fi(){ name = "pi"; }$/;"	f	class:Fi
+Fi	Wyrazenia.hpp	/^class Fi : public Stala{$/;"	c
+Find	Wyrazenia.cpp	/^double Zmienna::Find() const{$/;"	f	class:Zmienna
+Liczba	Wyrazenia.hpp	/^		Liczba( double liczba ) : liczba(liczba) {};$/;"	f	class:Liczba
+Liczba	Wyrazenia.hpp	/^class Liczba : public Wyrazenie{$/;"	c
+Ln	Wyrazenia.hpp	/^	Ln( Wyrazenie* first) : operator1arg(first) { name = "ln"; }$/;"	f	class:Ln
+Ln	Wyrazenia.hpp	/^class Ln : public operator1arg{$/;"	c
+Logarytm	Wyrazenia.hpp	/^	Logarytm( Wyrazenie* base, Wyrazenie* num) : operator2arg( base, num){ oper = "log";}$/;"	f	class:Logarytm
+Logarytm	Wyrazenia.hpp	/^class Logarytm : public operator2arg{$/;"	c
+Mnoz	Wyrazenia.hpp	/^	Mnoz( Wyrazenie* first, Wyrazenie* second ) : operator2arg( first, second ){ oper = "*"; }$/;"	f	class:Mnoz
+Mnoz	Wyrazenia.hpp	/^class Mnoz : public operator2arg{$/;"	c
+Modulo	Wyrazenia.hpp	/^	Modulo( Wyrazenie* first, Wyrazenie* second) : operator2arg( first, second){ oper = "%";}$/;"	f	class:Modulo
+Modulo	Wyrazenia.hpp	/^class Modulo : public operator2arg{$/;"	c
+Odejmij	Wyrazenia.hpp	/^	Odejmij( Wyrazenie* first, Wyrazenie* second ) : operator2arg( first, second ){ oper = "-"; }$/;"	f	class:Odejmij
+Odejmij	Wyrazenia.hpp	/^class Odejmij : public operator2arg{$/;"	c
+Odwrot	Wyrazenia.hpp	/^	Odwrot( Wyrazenie* first) : operator1arg(first) { name = "1\/"; }$/;"	f	class:Odwrot
+Odwrot	Wyrazenia.hpp	/^class Odwrot : public operator1arg{$/;"	c
+Pi	Wyrazenia.hpp	/^		Pi(){ name = "pi"; }$/;"	f	class:Pi
+Pi	Wyrazenia.hpp	/^class Pi : public Stala{$/;"	c
+Potega	Wyrazenia.hpp	/^	Potega( Wyrazenie* first, Wyrazenie* second) : operator2arg( first, second){ oper = "^";}$/;"	f	class:Potega
+Potega	Wyrazenia.hpp	/^class Potega : public operator2arg{$/;"	c
+Przeciw	Wyrazenia.hpp	/^	Przeciw( Wyrazenie* first) : operator1arg(first) { name = "-"; }$/;"	f	class:Przeciw
+Przeciw	Wyrazenia.hpp	/^class Przeciw : public operator1arg{$/;"	c
+Sin	Wyrazenia.hpp	/^		Sin( Wyrazenie* first) : operator1arg(first) { name = "sin"; }$/;"	f	class:Sin
+Sin	Wyrazenia.hpp	/^class Sin : public operator1arg{$/;"	c
+Stala	Wyrazenia.hpp	/^class Stala : public Wyrazenie{$/;"	c
+Wyrazenie	Wyrazenia.hpp	/^class Wyrazenie{$/;"	c
+Zmienna	Wyrazenia.hpp	/^		Zmienna( std::string name ){ $/;"	f	class:Zmienna
+Zmienna	Wyrazenia.hpp	/^class Zmienna : public Wyrazenie{$/;"	c
+e	Wyrazenia.hpp	/^		e(){ name = "e"; }$/;"	f	class:e
+e	Wyrazenia.hpp	/^class e : public Stala{$/;"	c
+first	Wyrazenia.hpp	/^		Wyrazenie* first;$/;"	m	class:operator1arg
+liczba	Wyrazenia.hpp	/^		double liczba;$/;"	m	class:Liczba
+main	main.cpp	/^int main(){$/;"	f
+name	Wyrazenia.hpp	/^		std::string name;$/;"	m	class:Stala
+name	Wyrazenia.hpp	/^		std::string name;$/;"	m	class:Zmienna
+name	Wyrazenia.hpp	/^		std::string name;$/;"	m	class:operator1arg
+oper	Wyrazenia.hpp	/^		std::string oper;$/;"	m	class:operator2arg
+operator1arg	Wyrazenia.hpp	/^		operator1arg( Wyrazenie* first ) : first(first) {};$/;"	f	class:operator1arg
+operator1arg	Wyrazenia.hpp	/^class operator1arg : public Wyrazenie{$/;"	c
+operator2arg	Wyrazenia.hpp	/^		operator2arg( Wyrazenie* first, Wyrazenie* second ) : operator1arg( first ), second( second ) {};$/;"	f	class:operator2arg
+operator2arg	Wyrazenia.hpp	/^class operator2arg : public operator1arg{$/;"	c
+opis	Wyrazenia.hpp	/^		std::string opis() { return " (" + first->opis() + " " + oper + " " + second->opis() + ") " ; }$/;"	f	class:operator2arg
+second	Wyrazenia.hpp	/^		Wyrazenie *second;$/;"	m	class:operator2arg
+wyrazenia_h	Wyrazenia.hpp	2;"	d
